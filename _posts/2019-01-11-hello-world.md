@@ -9,4 +9,3 @@ comments: true
 
 Stay tuned for more posts!
 
-<a class="btn btn-default" href="https://github.com/dbtek/dbyll">Great template!</a>
