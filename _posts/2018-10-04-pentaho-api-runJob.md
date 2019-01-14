@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to launch and watch a job on the Pentaho Server 7.x+
+title: How to launch and watch a job on Pentaho/Carte Server 7.x+
 categories: [shell]
 tags: [pentaho,jenkins,bash]
 fullview: false
