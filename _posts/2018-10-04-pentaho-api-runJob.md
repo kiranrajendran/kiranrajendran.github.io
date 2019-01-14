@@ -9,7 +9,7 @@ comments: true
 
 Since version 7.x, Pentaho Server (or a Carte Server) has the ability to kick off jobs (or transformations) on one of the aforementioned servers. 
 
-To see the status of the ETL that is being executed, one would browse to `http\://SERVER_IP:SERVER_PORT/kettle/status`.  We could actually see this status page of currently and recently executed ETL since at least version 4.x.
+To see the status of the ETL that is being executed, one would browse to <a>http\://SERVER_IP:SERVER_PORT/kettle/status</a>.  We could actually see this status page of currently and recently executed ETL since at least version 4.x.
 
 The shell script provided starts execution of a job stored in the Pentaho Repository (**NOTE: syntax may change slightly between versions, and Enterprise or File System repositories)** and monitors the status of the job on the kettle/status endpoint by calling it with the id generated after submission.  
 
