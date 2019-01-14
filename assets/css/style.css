@@ -10,7 +10,8 @@ h1 small{
 }
 
 code {
-	border: thick dotted purple;
+	border: none;
+	background-color:rgb(196, 213, 248)
 } 
 
 .sidebar {
