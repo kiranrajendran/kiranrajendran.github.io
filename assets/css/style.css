@@ -4,13 +4,23 @@ body{
 	color: #2c3e50;
 }
 
+
+h1 small{
+	color:#1F333B;
+}
+
+code {
+	border: thick dotted purple;
+} 
+
 .sidebar {
 	position: fixed;
 	top: 0px;
 	padding-top: 10%;
-	background-color: #bebebd;
-	color: #000;
+	background-color: #011822;
+	color: #A8E5FF;
 }
+
 
 .sidebar-header {
 	text-align: center;
@@ -82,9 +92,10 @@ article .share .gplus:hover {
 }
 
 .page-header {
-	color: #000000;
-	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+	color: #000;
+
 }
+
 
 @media only screen and (min-width: 768px) {
     .page-header{
@@ -172,7 +183,7 @@ footer {
     border-radius: 4px 0 0 4px;
 }
 
-.badge { background: #F2756A; }
+.badge { background: #006089; }
 
 #nav-menu{
     position: fixed;
