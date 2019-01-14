@@ -15,5 +15,5 @@ The shell script provided starts execution of a job stored in the Pentaho Reposi
 
 The status of the job is then evaluated to identify overall SUCCESS or FAILURE state of the requested job. This can be used with scheduling tools or CI/CD tools, for regular execution, or perhaps in a testing framework, respectively. 
 
-<a href="https://github.com/kiranrajendran/krghio/blob/master/j_run_something_main.sh" target="_blank">Click here for script</a>\
-<a href="http://help.pentaho.com" target="_blank">Click here for Pentaho Documentation</a>
+*<a href="https://github.com/kiranrajendran/krghio/blob/master/j_run_something_main.sh" target="_blank">Click here for script</a>
+*<a href="http://help.pentaho.com" target="_blank">Click here for Pentaho Documentation</a>
