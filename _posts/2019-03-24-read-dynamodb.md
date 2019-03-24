@@ -9,7 +9,7 @@ comments: true
 
 A quick example on how to use a User Defined Java Class (UDJC) to query Amazon DynamoDB with Pentaho 8.2.x (probably works in other versions as well).
 
-The UDJC usees the local machines `DefaultAWSCredentialsProviderChain` to find authentication credentials (environment variables, java properties, profile, etc.).
+The UDJC uses the local machines `DefaultAWSCredentialsProviderChain` to find authentication credentials (environment variables, java properties, profile, etc.).
 
 There is opportunity to create a single request with multiple `Items` and send them in a <a href=" https://docs.aws.amazon.com/cli/latest/reference/dynamodb/batch-get-item.html" target="_blank">single batch</a>.
 
