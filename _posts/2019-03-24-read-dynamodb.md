@@ -15,7 +15,7 @@ There is opportunity to create a single request with multiple `Items` and send t
 
 The transformation can be used to grab configuration information for an execution e.g. read server properties for a project/environment/tenant and set them at top of your ETL cycle. 
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://kiranrajendran.github.io/assets/post-images/2019-03-24-read-dynamodb-001.png "Image 001")
 
 <a href="https://github.com/kiranrajendran/krghio/tree/master/dynamho" target="_blank">Click here for sample put/get to DynamoDB from AWS CLI</a>  
 <a href="https://github.com/kiranrajendran/krghio/blob/master/dynamho/t_read_dynamodb.ktr" target="_blank">Click here for transformation</a>  
