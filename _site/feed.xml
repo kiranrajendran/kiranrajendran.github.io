@@ -1,53 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>kiranr | energy bev + code + data</title>
-    <description>kiranr coverts energy drinks and data into cool things</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 22 Mar 2020 19:46:33 -0700</pubDate>
-    <lastBuildDate>Sun, 22 Mar 2020 19:46:33 -0700</lastBuildDate>
-    <generator>Jekyll v3.8.6</generator>
-    
-      <item>
-        <title>Querying AWS DynamoDB with Pentaho</title>
-        <description>&lt;p&gt;A quick example on how to use a User Defined Java Class (UDJC) to query Amazon DynamoDB with Pentaho 8.2.x (probably works in other versions as well).&lt;/p&gt; &lt;p&gt;The UDJC uses the local machines &lt;code class=&quot;highlighter-rouge&quot;&gt;DefaultAWSCredentialsProviderChain&lt;/code&gt; to find authentication credentials (environment variables, java properties, profile, etc.).&lt;/p&gt; &lt;p&gt;There is opportunity to create a single request with multiple &lt;code class=&quot;highlighter-rouge&quot;&gt;Items&lt;/code&gt; and send them in a &lt;a href=&quot; https://docs.aws.amazon.com/cli/latest/reference/dynamodb/batch-get-item.html&quot; target=&quot;_blank&quot;&gt;single batch&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;The transformation can be used to grab configuration information for an execution e.g. read server properties for a project/environment/tenant and set them at top of your ETL cycle.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/assets/post-images/2019-03-24-read-dynamodb-001.png&quot; alt=&quot;alt text&quot; title=&quot;Image...</description>
-        <pubDate>Sun, 24 Mar 2019 05:00:00 -0700</pubDate>
-        <link>http://localhost:4000/read-dynamodb/</link>
-        <guid isPermaLink="true">http://localhost:4000/read-dynamodb/</guid>
-        
-        <category>pentaho</category>
-        
-        <category>aws</category>
-        
-        <category>java</category>
-        
-        <category>kettle</category>
-        
-        <category>data</category>
-      </item>
-    
-      <item>
-        <title>Launch a Job on Pentaho/Carte Server 7.x+</title>
-        <description>&lt;p&gt;Since version 7.x, Pentaho Server (or a Carte Server) has the ability to kick off jobs (or transformations) on one of the aforementioned servers.&lt;/p&gt; &lt;p&gt;To see the status of the ETL that is being executed, one would browse to &lt;a&gt;http://SERVER_IP:SERVER_PORT/kettle/status&lt;/a&gt;. We could actually see this status page of currently and recently executed ETL since at least version 4.x.&lt;/p&gt; &lt;p&gt;The shell script provided starts execution of a job stored in the Pentaho Repository (&lt;strong&gt;NOTE: syntax may change slightly between versions, and Enterprise or File System repositories)&lt;/strong&gt; and monitors the status of the job on the kettle/status endpoint by calling it with...</description>
-        <pubDate>Thu, 04 Oct 2018 05:00:00 -0700</pubDate>
-        <link>http://localhost:4000/pentaho-api-runJob/</link>
-        <guid isPermaLink="true">http://localhost:4000/pentaho-api-runJob/</guid>
-        
-        <category>pentaho</category>
-        
-        <category>kettle</category>
-        
-        <category>bash</category>
-        
-        <category>shell</category>
-        
-        <category>data</category>
-      </item>
-    
-      <item>
-        <title>Quick Date Dimension with Python</title>
-        <description>&lt;p&gt;A small Python script to generate a date dimension for your data warehouse. Uses YYYYMMDD as an intelligent surrogate key.&lt;/p&gt;
+	<channel>
+		<title>kiranr.com</title>
+		<description>data and energy beverage connoisseur</description>
+		<link>/</link>
+		<atom:link href="/" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>A simple date dim generator</title>
+				<description>&lt;p&gt;A small Python script to generate a date dimension for your data warehouse. Uses YYYYMMDD as an intelligent surrogate key.&lt;/p&gt;
 
 &lt;p&gt;Use with Python 2.7.x:&lt;/p&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;kiran@zeus:~$ python makedate.py
@@ -59,16 +20,10 @@ COMPLETED writing file date.csv
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/kiranrajendran/krghio/blob/master/makedate.py&quot; target=&quot;_blank&quot;&gt;Click here for code&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 05 Apr 2016 05:00:00 -0700</pubDate>
-        <link>http://localhost:4000/makedate.py/</link>
-        <guid isPermaLink="true">http://localhost:4000/makedate.py/</guid>
-        
-        <category>data</category>
-        
-        <category>python</category>
-        
-        <category>data</category>
-      </item>
-    
-  </channel>
+				<pubDate>Tue, 05 Apr 2016 00:00:00 -0700</pubDate>
+				<link>/etl/2016/04/05/makedate.py.html</link>
+				<guid isPermaLink="true">/etl/2016/04/05/makedate.py.html</guid>
+			</item>
+		
+	</channel>
 </rss>
