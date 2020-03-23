@@ -20,9 +20,7 @@ disqus_username: kiranrajendran
 show_hero: true
 menu:
   - title: Home
-    url: /
-  - title: Posts
-    url: /posts    
+    url: /  
   - title: Contact
     url: /contact
   - title: Resume
