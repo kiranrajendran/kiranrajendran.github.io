@@ -1,12 +1,12 @@
-name: Diego
-title: Coflow
-description: Diegofornalha
+name: kiranr.com
+title: kiranr.com
+description: kiranr.com
 tags:
   - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - etl
+  - pentaho
+  - data
+  - kettle
 show_hero: true
 menu:
   - title: Home
@@ -15,7 +15,5 @@ menu:
     url: /about
   - title: Contact
     url: /contact
-  - title: Feed
-    url: /feed.xml
-email: youremail@xyz.com
-disqus_username: disqus_username
+email: kiran.rajendran@gmail.com
+disqus_username: kiranrajendran
