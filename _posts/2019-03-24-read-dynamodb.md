@@ -1,12 +1,19 @@
 ---
+date: 2019-03-24 12:00:00
 layout: post
-title: Querying AWS DynamoDB with User Defined Java Class
-categories: [dynamodb,udjc]
-tags: [pentaho,aws,java]
-fullview: false
-comments: true
+title: Querying AWS DynamoDB with Pentaho
+subtitle: User Defined Java Class to call AWS SDK
+description: Read DynamoDB tables with Pentaho
+image: https://res.cloudinary.com/dvexqgcid/image/upload/c_scale,w_680/v1584930993/krghio/DynamoDB_Blog_Header_2_jktsnd.png
+optimized_image: https://res.cloudinary.com/dvexqgcid/image/upload/c_scale,w_380/v1584930993/krghio/DynamoDB_Blog_Header_2_jktsnd.png
+category: data
+tags:
+  - pentaho
+  - aws
+  - java
+  - kettle
+author: kiranrajendran
 ---
-
 A quick example on how to use a User Defined Java Class (UDJC) to query Amazon DynamoDB with Pentaho 8.2.x (probably works in other versions as well).
 
 The UDJC uses the local machines `DefaultAWSCredentialsProviderChain` to find authentication credentials (environment variables, java properties, profile, etc.).

@@ -1,10 +1,20 @@
 ---
+date: 2018-10-04 12:00:00
 layout: post
-title: How to launch and watch a job on Pentaho/Carte Server 7.x+
-categories: [shell]
-tags: [pentaho,jenkins,bash]
-fullview: false
-comments: true
+title: Launch a Job on Pentaho/Carte Server 7.x+
+subtitle: Launch and monitor a running job on Data Integration
+description: Launch and monitor a running job on Data Integration
+image: https://res.cloudinary.com/dvexqgcid/image/upload/c_scale,w_680/v1584931275/krghio/8e9f2cab03_mpwrvr.jpg
+optimized_image: https://res.cloudinary.com/dvexqgcid/image/upload/c_scale,w_380/v1584931275/krghio/8e9f2cab03_mpwrvr.jpg
+#image: https://res.cloudinary.com/dvexqgcid/image/upload/v1584929566/krghio/disserver_a0lw9w.png
+#optimized_image: https://res.cloudinary.com/dvexqgcid/image/upload/c_scale,w_380/v1584929566/krghio/disserver_a0lw9w.png
+category: data
+tags:
+  - pentaho
+  - kettle
+  - bash
+  - shell
+author: kiranrajendran
 ---
 
 Since version 7.x, Pentaho Server (or a Carte Server) has the ability to kick off jobs (or transformations) on one of the aforementioned servers. 

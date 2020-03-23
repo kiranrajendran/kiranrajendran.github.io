@@ -1,39 +1,106 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+# Site Settings
+name: kiranr
+title: kiranr | energy bev + code + data
+description: kiranr coverts energy drinks and data into cool things
+tags:
+  - blog
+  - kiranr
+  - pentaho
+  - code
+  - java
+  - kettle
+  - aws
+  - azure
+  - kiranrajendran
+  - hitachi
+  - iot
+  - vantara
+email: kiran.rajendran@gmail.com
+disqus_username: kiranrajendran
+show_hero: true
+menu:
+  - title: Home
+    url: /  
+  - title: Contact
+    url: /contact
+  - title: Resume
+    url: /resume-kiranr.pdf
+paginate: 15
 
-paginate: 10 # pagination based on number of posts
-paginate_path: "page:num"
-exclude: ["README.md"] # files to exclude
-highlighter: rouge
+# Social Media Settings
+# Remove the item if you don't need it
+github_username: kiranrajendran
+twitter_username: kiranrajendran
+linkedin_username: kiranrajendran
+medium_username: kiran.rajendran
+
+
+# Posts Settings
+show_time_bar: false
+show_modal_on_exit: false
+show_modal_on_finish_post: false
+two_columns_layout: false
+
+
+# Advanced Settings
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+google_analytics: "UA-132316635-1"
+language: "en"
+categories_folder: category
+sent_message_url: "/contact/message-sent/"
+
+
+# Build settings
 markdown: kramdown
-disqus: kiranr
-google_analytics: kiranr
-title: kiranr.com
+highlighter: rouge
+permalink: /:title/
+collections:
+  authors:
+    output: true
+paginate_path: "/page/:num/"
+show_get_theme_btn: true
+use_logo: false
 
+# Content paginator
+paginate_content:
+  enabled: true
+  debug: false
+  collections:
+    - posts
+  auto: false
+  separator: "--page-break--"
+  permalink: "/:num/"
+  seo_canonical: true
+  properties:
+    part:
+      is_generated: true
+    last:
+      is_generated: true
+    single:
+      is_generated: true
 
-defaults:
-  -
-    scope:
-      path: "" # empty string for all files
-    values:
-      title: kiranr
-      tagline: a harsh discordant mixture of sounds
+# SASS
+sass:
+  style: compressed
 
-description: data and energy beverage connoisseur
-author:
-  name: Kiran Rajendran
-  email: kiran.rajendran@gmail.com
-  github: kiranrajendran
-  #twitter: 
-  #pinterest: 
-  linkedin: kiranrajendran
-  bio: data and energy beverage connoisseur
-  email_md5: c86659a90b8397e8119932de1baa42bd
-
-#rss_path: feed.xml
-categories_path: categories.html
-tags_path: tags.html
-
-BASE_PATH:
-
+# Plugins
 plugins:
   - jekyll-paginate
+  - jekyll-paginate-content
+
+# Exclude my node related stuff
+exclude: [
+  'package.json',
+  'package-lock.json',
+  'src',
+  'node_modules',
+  'initpost.sh',
+  'Gemfile',
+  'Gemfile.lock',
+  'gulpfile.js',
+  'README.md'
+]
+
+# Theme
+version: v.2020.03.22
