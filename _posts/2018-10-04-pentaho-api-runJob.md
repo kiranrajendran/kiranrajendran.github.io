@@ -8,7 +8,7 @@ image: https://res.cloudinary.com/dvexqgcid/image/upload/c_scale,w_680/v15849312
 optimized_image: https://res.cloudinary.com/dvexqgcid/image/upload/c_scale,w_380/v1584931275/krghio/8e9f2cab03_mpwrvr.jpg
 #image: https://res.cloudinary.com/dvexqgcid/image/upload/v1584929566/krghio/disserver_a0lw9w.png
 #optimized_image: https://res.cloudinary.com/dvexqgcid/image/upload/c_scale,w_380/v1584929566/krghio/disserver_a0lw9w.png
-category: data
+category: monitor
 tags:
   - pentaho
   - kettle
