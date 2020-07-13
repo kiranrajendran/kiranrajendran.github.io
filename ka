@@ -1,0 +1,4 @@
+alias k='kubectl'
+alias kgp='k get pods'
+alias kgd='k get deployments'
+alias kfdp='k delete pod --force --grace-period=0 '
