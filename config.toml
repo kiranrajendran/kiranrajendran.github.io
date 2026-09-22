@@ -1,6 +1,7 @@
 baseURL = "https://kiranr.com/"
 locale = "en-us"
 title = "Kiran Rajendran"
+publishDir = "docs"
 disableKinds = ["taxonomy", "term"]
 
 [params]

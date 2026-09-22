@@ -5,3 +5,9 @@ public/
 .sass-cache/
 _site/
 .DS_Store
+.hugo_build.lock
+.superpowers/
+.jekyll-cache/
+.sass-cache/
+_site/
+.DS_Store
