@@ -1,0 +1,13 @@
+baseURL = "https://kiranr.com/"
+locale = "en-us"
+title = "Kiran Rajendran"
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  tagline    = "Data wrangler. Performance obsessive. Amateur wizard. Professional coffee consumer."
+  github     = "https://github.com/kiranrajendran"
+  linkedin   = "https://linkedin.com/in/kiranrajendran"
+  email      = "mailto:kiran.rajendran@gmail.com"
+  resume     = "/resume-kiranr.pdf"
+  ga_id      = "UA-132316635-1"
+  footer     = "kiranr.com"

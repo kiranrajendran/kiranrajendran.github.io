@@ -1,4 +1,7 @@
-_config.yml
-_site/*
-*Thumbs.db
-Gemfile.lock
+public/
+.hugo_build.lock
+.superpowers/
+.jekyll-cache/
+.sass-cache/
+_site/
+.DS_Store
