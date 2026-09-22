@@ -13,7 +13,7 @@ hugo server --disableFastRender   # dev server at http://localhost:1313
 hugo --minify                     # production build → public/
 ```
 
-Deploy by pushing to `master` — GitHub Actions builds and pushes to `gh-pages` automatically.
+Deploy: run `hugo --minify`, commit the `docs/` folder, push to `master`. GitHub Pages serves from `master/docs`.
 
 ---
 
